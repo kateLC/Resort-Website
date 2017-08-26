@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Web Page Title-->
+    <title>Line Thai Restaurant :: Menus</title>
+    <meta charset="utf-8">
+    <!--add w4 p2-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!---expand list-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!---online source code from : https://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
+    <!--------slide show-------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <!---online source code from : https://www.w3schools.com ---->
+     <!--include css link-->
+    <link href="pacific.css" rel="stylesheet">
+    
+    <!--w4 p2-->
+    <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+    
+</head>
+<body>
+    <!--add id-->
+    <div id="wrapper">
+        <!--Wireframe Header Area-->
+         <header>
+            <!--w6 p2-->
+            <!--meta tage-->
+            <meta name="description" 
+            content="
+            The Line Thai Restaurant website featuring menus detail, special offer, images, survey, map and location. 
+            Moreover, We offer the digital or printed version of the menu.">
+            <!---
+            <h1>Line Thai Restaurant</h1>
+            --->
+         </header>
+         <nav>
+            <ul>
+                 <!--Wireframe Navigation Area-->
+               <li><a href="index.html">Home</a></li>
+               <li><a href="menus.html">Menus</a></li>
+            	 <li><a href="lunch.html">Lunch Specials</a></li>
+            	 <li><a href="vegetarian.html">Vegetarian</a></li>
+            	 <li><a href="dessert.html">Dessert</a></li>
+            	 <li><a href="location.html">Location</a></li>
+            	 <li><a href="survey.html">Survey </a></li>
+        	 </ul>
+         </nav>
+          <!------------FIX THIS CSS--------------------------->
+         <main>
+             <!--Wireframe Main Content Area-->
+                <!--slide show----------------------------------------------------------------------->
+              
+                <div class="w3-content w3-display-container">
+                  <img class="mySlides" src="f (13).jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="f (14).jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="F1.jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="F2.jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="F3.jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="F4.jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="F5.jpg" style="width:100%" height="300" width="200">
+                
+                
+                  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                
+                <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+                </script>
+            <!--slide show----------------------------------------------------------------------->
+            <h2>Menus</h2>
+             <!--Wireframe Main Content Area-->
+             <!---------------------------------------------------------->
+              <div class="container">
+                <h3>Thai Appetizers</h3>
+                <p class="m2">
+                  <i>**PLEASE ASK SERVER ABOUT ADDITIONAL VEGETARIAN SELECTIONS.**</i>
+                </p>
+                <!--Click List-->
+                <a href="#App" class="btn2" data-toggle="collapse">Appetizers Menus</a>
+                <div id="App" class="collapse">
+            
+                <!--menus list expand--->
+                <div class="container">
+                  <h3 class="m3"><small>POH PIAH THOD</small></h3>
+                  <p class="m3" align="left">$2.00</p>
+                  <a href="#demo" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo" class="collapse" align="center">
+                    Deep fried egg rolls with mixed veggies.(2 per order)
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>POH PIAH SOD</small></h3>
+                  <p class="m3" align="left">$3.00</p>
+                  <a href="#demo1" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo1" class="collapse" align="center">
+                    Mixed veggies with rice noodles, pork, shrimp wrapped in rice paper.(2 per order) 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>SATAY</small></h3>
+                  <p class="m3" align="left">$8.95</p>
+                  <a href="#demo2" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo2" class="collapse" align="center">
+                    Barbecued beef or chicken marinated in Thai satay sauce, served with a delicious peanut sauce and cucumber sauce. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>THOD MUN PLA</small></h3>
+                  <p class="m3" align="left">$9.50</p>
+                  <a href="#demo3" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo3" class="collapse" align="center">
+                    Spicy fish patties with green beans, served with spicy cucumber sauce.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>ANGEL WINGS</small></h3>
+                  <p class="m3" align="left">$9.50</p>
+                  <a href="#demo4" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo4" class="collapse" align="center">
+                    Chicken wings stuffed with pork, mixed vegetables, silver noodles, served with spicy cucumber sauce.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>MEE KROB</small></h3>
+                  <p class="m3" align="left">$8.95</p>
+                  <a href="#demo5" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo5" class="collapse" align="center">
+                    Crispy rice noodles with shrimp, pork, bean sprouts, green onions sautéed in sweet and sour sauce. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KIEW KROB (FRIED WONTON)</small></h3>
+                  <p class="m3" align="left">$7.95</p>
+                  <a href="#demo6" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo6" class="collapse" align="center">
+                    Ground pork wrapped in rice pasta.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>FRIED BANANAS</small></h3>
+                  <p class="m3" align="left">$7.95</p>
+                  <a href="#demo7" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo7" class="collapse" align="center">
+                    Deep fried light - battered bananas served with honey.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>CRISPY COMBINATION</small></h3>
+                  <p class="m3" align="left">$8.95</p>
+                  <a href="#demo8" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo8" class="collapse" align="center">
+                   Fried shrimps, egg roll, wantons, banana and vegetables.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>TAO HU THOD</small></h3>
+                  <p class="m3" align="left">$7.95</p>
+                  <a href="#demo9" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo9" class="collapse" align="center">
+                     Deep fried tofu served with spicy sauce. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>CRAB PUFF</small></h3>
+                  <p class="m3" align="left">$7.95</p>
+                  <a href="#demo10" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo10" class="collapse" align="center">
+                    Imitation crab meat mix with cream cheese, wrapped in wanton sheet. 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <!---------------------------------------------------------->
+            <div class="container">
+             <h3>Thai Salad</h3>
+                <p class="m2">
+                    DISHES MARKED WITH * ARE SPICY, WE WILL SEASON THEM TO YOUR TASTE.
+                </p>
+                <!--Click List-->
+                <a href="#Salad" class="btn2" data-toggle="collapse">Salad Menus</a>
+                <div id="Salad" class="collapse">
+            
+                <!--menus list expand--->
+                <div class="container">
+                  <h3 class="m3"><small>LAP NEUA KAI *</small></h3>
+                  <p class="m3" align="left">$8.95</p>
+                  <a href="#demo11" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo11" class="collapse" align="center">
+                    Finely chopped beef or chicken lightly sautéed in lemon juice and mint, red onions, green onions and cilantro.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>YAM NEUA NAHM TOK *</small></h3>
+                  <p class="m3" align="left">$8.95</p>
+                  <a href="#demo12" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo12" class="collapse" align="center">
+                    Sliced beef lightly sautéed in lemon and mint sauce with red onions, green onions and cilantro. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>YAM PLA MEUK *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo13" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo13" class="collapse" align="center">
+                    Squid lightly sauteed in lemon grass, mint, red onions, green onions, cilantro, lemon grass and homemade chili paste. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>YAM NEUA YANG *</small></h3>
+                  <p class="m3" align="left">$8.50</p>
+                  <a href="#demo14" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo14" class="collapse" align="center">
+                    Barbecue beef sautéed in homemade lemon sauce with red onions, green onions, carrots and mixed greens.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>YAM KUN CHIANG *</small></h3>
+                  <p class="m3" align="left">$8.50</p>
+                  <a href="#demo15" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo15" class="collapse" align="center">
+                    Thai sausage in a mixed green salad, tomatoes, red onions, green onions, carrots with our own hot and sour dressing. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>SALAD KHAEG </small></h3>
+                  <p class="m3" align="left">$8.95</p>
+                  <a href="#demo16" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo16" class="collapse" align="center">
+                     Fresh green salad with hard-boiled eggs, pork, shrimp, topped with famous peanut sauce. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHLA KUNG *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo17" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo17" class="collapse" align="center">
+                    Barbecue shrimps lightly sautéed in lemon grass, red onions, green onions, mint, homemade chili paste and spicy sauce.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>YAM TA LAY ROD DED *</small></h3>
+                  <p class="m3" align="left">$14.95</p>
+                  <a href="#demo18" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo18" class="collapse" align="center">
+                   Shrimp, green mussels and squids in spicy green salad, red onion, green onion, lemon grass and chili paste.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>MU MA-NAO *</small></h3>
+                  <p class="m3" align="left">$8.95</p>
+                  <a href="#demo19" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo19" class="collapse" align="center">
+                     Grilled pork with lemon sauce in mixed greens and carrots. 
+                  </div>
+                </div>
+                 <div class="container">
+                  <h3 class="m3"><small>SOM TAM MALAKOR *</small></h3>
+                  <p class="m3" align="left">$8.95</p>
+                  <a href="#demo20" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo20" class="collapse" align="center">
+                     Shredded green papayas and carrots, tomatoes, peanuts tossed in a tangy dressing.  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <!---------------------------------------------------------->
+            <div class="container">
+              <h3>Thai Soups</h3>
+                <p class="m2">
+                    Our soups are served in flaming Mongolian hot pots. For Two to Four persons.
+                    <br>
+                    DISHES MARKED WITH * ARE SPICY, WE WILL SEASON THEM TO YOUR TASTE.
+                </p>
+                <!--Click List-->
+                <a href="#Soup" class="btn2" data-toggle="collapse">Soups Menus</a>
+                <div id="Soup" class="collapse">
+        
+                <!--menus list expand--->
+                <div class="container">
+                  <h3 class="m3"><small>KAENG JEUD</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo21" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo21" class="collapse" align="center">
+                    Mixed vegetables, pork, and shrimp soup.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KIAW NAM (WONTON SOUP) </small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo22" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo22" class="collapse" align="center">
+                    Ground pork wrapped with wonton skins in chicken broth.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>TOM YAM KAI *</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo23" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo23" class="collapse" align="center">
+                    Hot and sour chicken soup with lemon grass, mushrooms and homemade chili paste.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>TOM KHA KAI *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo24" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo24" class="collapse" align="center">
+                    Hot and sour soup with lemon grass, mushrooms, chicken with galanga in coconut milk and home made chili paste. </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>TOM YAM KUNG *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo25" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo25" class="collapse" align="center">
+                    Hot and sour soup with lemon grass, mushrooms, shrimp and home made chili paste.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>TOM YAM TA LAY *</small></h3>
+                  <p class="m3" align="left">$14.95</p>
+                  <a href="#demo26" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo26" class="collapse" align="center">
+                     Hot and sour soup with lemon grass, mushroom, mixed seafood and home made chili paste.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>POH TAEK (SEAFOOD COMBINATION SOUP) *</small></h3>
+                  <p class="m3" align="left">$14.95</p>
+                  <a href="#demo27" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo27" class="collapse" align="center">
+                    Mixed seafood with ginger, lemon grass in hot and sour broth.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+         <!----------------------------------------->
+         <div class="container">
+              <h3>Thai Entrees</h3>
+                <p class="m2">
+                    All entrees (except noodles and fried rice dishes) are served with steamed rice. There is a charge for extra rice.
+                    <br>
+                    DISHES MARKED WITH * ARE SPICY, WE WILL SEASON THEM TO YOUR TASTE.
+                </p>
+                <!--Click List-->
+                <a href="#Entre" class="btn2" data-toggle="collapse">Entrees Menus</a>
+                <div id="Entre" class="collapse">
+        
+                <!--menus list expand--->
+                <div class="container">
+                  <h3 class="m3"><small>PHAD KHA-NA</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo28" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo28" class="collapse" align="center">
+                    Stir fried broccoli with chicken, beef or pork.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD WOON SEN</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo29" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo29" class="collapse" align="center">
+                    Silver noodles stir-fried with choice of meat, onions, carrots celery and eggs.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD PRIAO WAN</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo30" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo30" class="collapse" align="center">
+                     Choice of chicken or pork deep fried and topped with sweet and sour sauce and vegetables.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>NEUA PHAD NAMMAN-HOI </small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo31" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo31" class="collapse" align="center">
+                    Beef stir-fried with onions, mushrooms, water chestnuts, carrots and celery in oyster sauce.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD NOH MAI</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo32" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo32" class="collapse" align="center">
+                    Choice of chicken or pork stir-fried with bamboo shoots, baby corns, carrots and mushrooms. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>NEUA PHAD PHRIK BELL</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo33" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo33" class="collapse" align="center">
+                    Sliced beef stir-fried with bell peppers, onions, tomatoes, pineapples and mushrooms. </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD NAM PHRIK PHAO *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo34" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo34" class="collapse" align="center">
+                    Your choice of meat stir-fried with our chili paste.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD KATHIAM PHRIK THAI *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo35" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo35" class="collapse" align="center">
+                    Your choice of meat stir-fried with a spicy garlic sauce. </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD PHRIK SOD *</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo36" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo36" class="collapse" align="center">
+                    Your choice of meat stir-fried with fresh chili peppers and onions. </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD KAPHRAO *</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo37" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo37" class="collapse" align="center">
+                    Your choice of meat stir-fried with fresh chili pepper, basil leaves, onions, bell peppers and bamboo shoots.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD PHRIK KHING *</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo38" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo38" class="collapse" align="center">
+                    Your choice of meat stir-fried in a Phrik Khing curry sauce with green beans.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KAI PHAD MAMUANG HIMAPHAN *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo39" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo39" class="collapse" align="center">
+                    Chicken stir-fried with bell peppers, onions, carrots, water chestnuts, cashew nuts and peanuts. </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD KHING SOD *</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo40" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo40" class="collapse" align="center">
+                    Chicken or pork stir-fried with fresh ginger, chili, onions and mushrooms. </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD EGG PLANT *</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo41" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo41" class="collapse" align="center">
+                    Eggplant stir-fried with choice of meat, onions, mushrooms and carrots.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>MOO DAENG</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo42" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo42" class="collapse" align="center">
+                    Barbecued pork served with fresh cucumbers.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PED YANG</small></h3>
+                  <p class="m3" align="left">$14.95</p>
+                  <a href="#demo43" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo43" class="collapse" align="center">
+                    Roasted duck served with broccoli and bok choi. </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KAI YANG</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo44" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo44" class="collapse" align="center">
+                    Barbecued chicken served with spicy sauce.</div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KHAI YAHD SAI MOO</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo45" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo45" class="collapse" align="center">
+                    Stuffed pork, onion, peas, carrots and tomatoes omelet.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PED PHAD MAMUANG HIMAPHAN *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo46" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo46" class="collapse" align="center">
+                    Roasted duck stir-fried with bell peppers, onions, carrots, water chestnuts, cashew nuts and peanuts. 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <!---------------------------------------------->
+            <div class="container">
+              <h3>Thai Seafood</h3>
+                <p class="m2">
+                    DISHES MARKED WITH * ARE SPICY, WE WILL SEASON THEM TO YOUR TASTE.
+                </p>
+                <!--Click List-->
+                <a href="#Sea" class="btn2" data-toggle="collapse">Seafood Menus</a>
+                <div id="Sea" class="collapse">
+        
+                <!--menus list expand--->
+                <div class="container">
+                  <h3 class="m3"><small>KUNG PRIAO WAN</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo47" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo47" class="collapse" align="center">
+                    Sweet and sour deep fried shrimp.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG PHAD KA NAH</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo48" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo48" class="collapse" align="center">
+                    Shrimp stir-fried with broccoli.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG PHAD NOH MAI</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo49" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo49" class="collapse" align="center">
+                     Shrimp stir-fried with bamboo shoots, baby corns, carrots and mushrooms in oyster sauce.
+                  </div>
+                  </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG PHAD SNOW PEAS</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo50" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo50" class="collapse" align="center">
+                     Shrimp stir-fried with snow peas, carrots mushrooms and onions in shrimp sauce. 
+                  </div>
+                  </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG PHAD PHRIK SOD *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo51" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo51" class="collapse" align="center">
+                   Shrimp stir-fried with fresh chili peppers and onions. 
+                   </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG PHAD PHRIK KHING *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo52" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo52" class="collapse" align="center">
+                    Shrimp stir-fried with Phrik Khing curry and green beans. 
+                  </div>
+                  </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG PHAD KAPHRAO *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo53" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo53" class="collapse" align="center">
+                    Shrimp stir-fried with fresh chili peppers, basil leaves, bamboo shoots and onions.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG NAM PHRIK PHAO *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo54" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo54" class="collapse" align="center">
+                    Shrimp sauteed in our chili paste and onions.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG PHAD PHONG KA-RI</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo55" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo55" class="collapse" align="center">
+                    Shrimps stir-fried with onions, celery in a yellow curry paste. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KUNG KATHIAM PHRIK THAI *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo56" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo56" class="collapse" align="center">
+                    Shrimp stir-fried in a spicy garlic sauce.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD PHED PLA MEUK *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo57" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo57" class="collapse" align="center">
+                    Squid stir-fried with chili peppers, onions, carrots and sweet basil.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PLA DUK RAD PHRIK *</small></h3>
+                  <p class="m3" align="left">$14.95</p>
+                  <a href="#demo58" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo58" class="collapse" align="center">
+                    Crispy catfish fillet with chili sauce.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small> TA LAY PHAD PHRIK *</small></h3>
+                  <p class="m3" align="left">$14.95</p>
+                  <a href="#demo59" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo59" class="collapse" align="center">
+                    Mixed seafood in a homemade spicy sauce and onions. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KAENG TA LAY RUAM MID</small></h3>
+                  <p class="m3" align="left">$14.95</p>
+                  <a href="#demo60" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo60" class="collapse" align="center">
+                   Mixed seafood in red curry and coconuts milk with carrots, water chestnuts, baby corns, celery and bamboo shoots. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KAENG KUNG *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo61" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo61" class="collapse" align="center">
+                    Shrimp in red curry with coconut milk, bamboo shoots and green beans.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KAENG KHUA KUNG SAPPHAROD *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo62" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo62" class="collapse" align="center">
+                   Shrimp in red curry with coconut milk, pineapple, tomato, peas and carrots. 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+          <!---------------------------------------------->
+            <div class="container">
+              <h3>Thai Curries</h3>
+                <p class="m2">
+                    DISHES MARKED WITH * ARE SPICY, WE WILL SEASON THEM TO YOUR TASTE.
+                </p>
+                <!--Click List-->
+                <a href="#Cur" class="btn2" data-toggle="collapse">Curries Menus</a>
+                <div id="Cur" class="collapse">
+        
+                <!--menus list expand--->
+                <div class="container">
+                  <h3 class="m3"><small>RED CURRY (KAENG PED) *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo63" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo63" class="collapse" align="center">
+                    Your choice of meat curried in coconut milk broth, bamboo shoots and green beans.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>GREEN CURRY (KAENG KEAW WAN) *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo64" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo64" class="collapse" align="center">
+                     Your choice of meat curried in creamy coconut milk broth, bamboo shoots and green beans. 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>YELLOW CURRY (KAENG KAKI KAI) *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo65" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo65" class="collapse" align="center">
+                     Chicken curried in coconut milk broth with potatoes and carrots. </div>
+                  </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHA-NAENG *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo66" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo66" class="collapse" align="center">
+                     Slices of chicken or beef simmered in a thick coconut milk sauce, Pha-Naeng curry, and fresh chili, delicious peanut flavor.</div>
+                  </div>
+                <div class="container">
+                  <h3 class="m3"><small>KAENG PHED PED YANG *</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo67" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo67" class="collapse" align="center">
+                   Roast duck curried in a creamy coconut milk broth, pineapple, tomatoes, and peas carrots.</div>
+                </div>
+              </div>
+            </div>
+            <br>
+          <!---------------------------------------------->
+             <div class="container">
+              <h3>Thai Noodles</h3>
+                <p class="m2">
+                    DISHES MARKED WITH * ARE SPICY, WE WILL SEASON THEM TO YOUR TASTE.
+                </p>
+                <!--Click List-->
+                <a href="#Nood" class="btn2" data-toggle="collapse">Noodles Menus</a>
+                <div id="Nood" class="collapse">
+        
+                <!--menus list expand--->
+                <div class="container">
+                  <h3 class="m3"><small>PHAD THAI *</small></h3>
+                  <p class="m3" align="left">$10.95</p>
+                  <a href="#demo68" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo68" class="collapse" align="center">
+                    Our famous Thai-style vermicelli rice noodles stir-fried with shrimp, chicken, eggs, bean sprouts, scallions and ground peanuts. 
+                    Our most popular noodle dish! 
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD SEE EW</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo69" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo69" class="collapse" align="center">
+                    Beef, pork or chicken stir-fried with wide rice noodles, bean sprouts and broccoli in a dark sweet soy sauce. (Add $4.00 for shrimps)
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>RAD NAH</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo70" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo70" class="collapse" align="center">
+                     Beef, pork or chicken stir-fried with rice noodles and broccoli topped with a tasty light brown gravy sauce. (Add $4.00 for shrimps) 
+                    </div>
+                  </div>
+                <div class="container">
+                  <h3 class="m3"><small>PHAD KHI MAO *</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo71" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo71" class="collapse" align="center">
+                     Beef, pork or chicken stir-fried with wide rice noodles, broccoli and basil leaves in chili sauce. (Add $4.00 for shrimps)
+                     </div>
+                  </div>
+                <div class="container">
+                  <h3 class="m3"><small>KHAO-SOI</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo72" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo72" class="collapse" align="center">
+                   Egg noodles with choice of beef, pork or chicken in special curry sauce. (Add $4.00 for shrimps) 
+                   </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <!---------------------------------------------->
+             <div class="container">
+              <h3>Thai Fried Rice</h3>
+                <p class="m2">
+                    DISHES MARKED WITH * ARE SPICY, WE WILL SEASON THEM TO YOUR TASTE.
+                </p>
+                <!--Click List-->
+                <a href="#Rice" class="btn2" data-toggle="collapse">Rice Menus</a>
+                <div id="Rice" class="collapse">
+        
+                <!--menus list expand--->
+                <div class="container">
+                  <h3 class="m3"><small>KHAO PHAD KAI, MOO</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo73" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo73" class="collapse" align="center">
+                    Beef, pork or chicken fried rice with onions, tomatoes and eggs.
+                  </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KHAO PHAD KUNG</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo74" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo74" class="collapse" align="center">
+                     Shrimp fried rice with onions, tomatoes and eggs. 
+                    </div>
+                </div>
+                <div class="container">
+                  <h3 class="m3"><small>KHAO PHAD PHRIK *</small></h3>
+                  <p class="m3" align="left">$9.95</p>
+                  <a href="#demo75" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo75" class="collapse" align="center">
+                     Beef, pork or chicken fried rice with onions, basil leaves and fresh chili.
+                     </div>
+                  </div>
+                <div class="container">
+                  <h3 class="m3"><small>KHAO PHAD SAPPHAROD</small></h3>
+                  <p class="m3" align="left">$12.95</p>
+                  <a href="#demo76" class="btnin" data-toggle="collapse">More Info</a>
+                  <div id="demo76" class="collapse" align="center">
+                     Fried rice with pineapple, peas, carrots, chicken and shrimps. 
+                     </div>
+                  </div>
+                </div>
+             </div>
+            <br>
+             <!---------------------------------------------->
+             <div class="container">
+              <h3>Beverages</h3>
+                <!--Click List-->
+                <a href="#drink" class="btn2" data-toggle="collapse">Beverages Menus</a>
+                <div id="drink" class="collapse">
+                <!--Beverages-->
+                <div class="container">
+                  <h3 class="m3"><small>THAI BEVERAGES</small></h3>
+                  <a href="#TB" class="btn2" data-toggle="collapse">Thai Beverages Menus</a>
+                  <div id="TB" class="collapse">
+                      <ul style="list-style-type:none">
+                        <li>THAI ICE TEA WITH CREAM (NO REFILLS)  <b>  $2.50</b></li>
+                        <li>THAI ICE TEA WITH CREAM NO ICE (NO REFILLS)  <b>  $3.00</b></li>
+                        <li>THAI ICE COFFEE WITH CREAM (NO REFILLS)  <b>  $2.50</b></li>
+                        <li>THAI ICE COFFEE WITH CREAM NO ICE (NO REFILLS)  <b>  $3.00</b></li>
+                        <li>REGULAR THAI TEA  <b>  $2.00</b></li>
+                        <li>HOT TEA  <b>  $1.25</b></li>
+                        <li>HOT COFFEE  <b>  $1.25</b></li>
+                        <li>SOFT DRINKS  <b>  $2.50</b></li>
+                      </ul>
+                     </div>
+                  </div>
+                <!--Beer---------------------------------------->
+                <div class="container">
+                  <h3 class="m3"><small>BEER</small></h3>
+                  <a href="#B" class="btn2" data-toggle="collapse">Beer Menus</a>
+                  <div id="B" class="collapse">
+                        <p>
+                          <h><strong><u>Imported Beer</u></strong></h>
+                          <br>
+                          <b>12 OZ. BOTTLES</b>
+                          <br>
+                          SINGHA, TSING TAO, SAPPORO, HEINEKEN, HARBIN.
+                          <b>  $4.50</b>
+                        </p>
+                        <p>
+                          <h><strong><u>Domestic Beer</u></strong></h>
+                          <br>
+                          <b>12 OZ. BOTTLES</b>
+                          <br>
+                          BUDWEISER, B1113 LIGHT, MICHELOB ULTRA, 3.50 MICHELOB ULTRA AMBER, COORS, 
+                          COORS LIGHT, MILLER LIGHT, SAMUEL ADAMS, SAMUEL ADAMS LIGHT, O'DOUL'S (NON ALCOHOLIC BEER).
+      
+                          <b>  $3.50</b> 
+                        </p>
+                     </div>
+                  </div>
+                <!--Wine--------------------------------------->
+                 <div class="container">
+                  <h3 class="m3"><small>WINE</small></h3>
+                  <a href="#W" class="btn2" data-toggle="collapse">Wine Menus</a>
+                  <div id="W" class="collapse">
+                        <p>
+                          <h><strong><u>Copperridge (House Wine)</u></strong></h>
+                          <br>
+                          CABERNET SAUVIGNON, CHARDONNAY, WHITE ZINFANDEL.
+                          <br>
+                          <b>GLASS : $3.50</b>
+                          <br>
+                          <b>1/2 CARAFE : $8.00 </b> 
+                          <br>
+                          <b>CARAFE : $14.00</b>
+                        </p>
+                        <p>
+                          <h><strong><u>Fetzer Classic</u></strong></h>
+                          <br>
+                          CHARDONNAY SUANDIAL, CABERNET SAUVIGNON, JOHANNISBERG RIESLING, 
+                          PINOT GRIGIO, MERLOT, WHITE ZINFANDEL.
+                          <br>
+                          <b>GLASS : $4.50</b>
+                          <br>
+                          <b>BOTTLE : $18.00</b>
+                        </p>
+                        <p>
+                          <h><strong><u>Kikoman</u></strong></h>
+                          <br>
+                          PLUM WINE
+                          <br>
+                          <b>GLASS : $4.50</b>
+                          <br>
+                          <b>BOTTLE : $18.00</b>
+                        </p>
+                     </div>
+                  </div>
+                 <!--------------end wine----------------------------------->
+            
+                </div> 
+             </div>
+            <br>
+          <!---------------------------------------------->
+               <div class="container">
+                <h3>Side Order</h3>
+                  <!--Click List-->
+                  <a href="#side" class="btn2" data-toggle="collapse">Side Order Menus</a>
+                  <div id="side" class="collapse">
+                    <!-----unordered list------->
+                    <ul style="list-style-type:none">
+                       <li>PEANUT SAUCE<b>  $1.50</b></li>
+                       <li>CUCUMBER SAUCE<b>  $1.50</b></li>
+                       <li>SWEET AND SOUR SAUCE<b>  $1.00</b></li> 
+                       <li>STEAMED RICE (SMALL)<b>  $1.50</b></li>
+                       <li>STEAMED RICE (LARGE)<b>  $3.00</b></li>
+                       <li>BROWN RICE (SMALL)<b>  $2.50</b></li>
+                       <li>BROWN RICE (LARGE)<b>  $5.00</b></li>
+                       <li>STICKY RICE<b>  $2.00</b></li>
+                       <li>STEAMED VEGETABLES<b>  $3.00</b></li> 
+                       <li>STEAMED NOODLES<b>  $2.00</b></li>
+                       <li>ADD SHRIMP<b>  $4.00</b></li>
+                       <li>ADD MEAT<b>  $2.00</b></li>
+                    </ul> 
+                </div> 
+             </div>
+             
+             <!--Print version-->
+             <br>
+             <br>
+                <p align="center"> 
+                <button onclick="myFunction()">Print this page</button>
+                 Click the button to print the current page!
+                </p>
+                <script>
+                function myFunction() 
+                {
+                    window.print();
+                }
+                </script>
+                <!---------------------------->
+         </main>
+        <!--add-------------------------------------------->
+        <footer>
+            <!--Wireframe Footer Area-->
+            <!-- Address ----------------->
+            <hr>
+            <p2>
+                <div id=contact>
+                    <span class="resort">
+                        Line Thai Restaurant</span>
+                    <br>9805 W. Bell Rd., Sun City
+                    <br>AZ 85351
+                    <br>
+                    <!--w4 p2-->
+                        <a id="mobile" href="tel:623-977-8940">623-977-8940</a>
+                        <span id="desktop">623-977-8940</span>
+                </div>
+                <br>
+            </p2>
+            <!-- Add social media icons -->
+            <p>
+                <!-- Add social media icons = facebook -->
+                <a href="https://www.facebook.com/Line-Thai-Restaurant-AZ-357967847552126/">
+                <img src="facebook.png" width="42" height="40" align="middle">
+                </a>
+                 <!-- Add social media icons = map-->
+                <a href="https://www.google.com/maps/dir/''/line+thai+restaurant+sun+city+menu/data=!4m5!4m4!1m0!1m2!1m1!1s0x872b42e8fd5683ed:0x52d28f4fc24dfba4?sa=X&ved=0ahUKEwjE1u3O6Y3TAhUP2GMKHZVWBg8Q9RcIjAEwCw">
+                <img src="Google_Maps_Icon.png" width="50" height="50" align="middle">
+                </a>
+            </p>
+                <!--Copyrigth-->
+                Copyright &copy; 2016 Line Thai Restaurant<br>
+                <a href="mailto:LineThaiRestaurant@gmail.com">LineThaiRestaurant@gmail.com</a>
+         </footer>
+    </div>
+</body>
+</html>

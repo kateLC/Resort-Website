@@ -1,0 +1,334 @@
+
+body {
+    background-color: #AA3939;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #550000, #AA3939);
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #8d1a17;
+    background-image: url(namelogo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /**********text***************/
+    color:#FFFFFF;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px
+}
+
+main {
+    background-color: #FFFFFF;
+    padding-top: 1px;
+    padding-right: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 30px; 
+    display: block;
+}
+  
+nav {  
+        font-family: Georgia,"Times New Roman", serif;
+        font-weight: bold; 
+        float: none;
+        width: auto; 
+        text-align: center;
+        padding: 0.5em;
+}
+nav li { 
+        display: inline;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+}
+nav ul {
+    list-style-type: none;/*no list makers*/
+    margin: 0;
+    padding-left: 0; 
+    font-size: 1.2em;
+}
+nav a {
+    font-family: Georgia,"Times New Roman", serif;
+    font-weight: bold; 
+    float: none;
+    width: auto; 
+    text-align: center;
+    /*******************************************/
+    text-decoration: none; 
+    transition: color 3s ease-out;
+}
+nav a:link {
+     color: #FFFFFF;
+}
+nav a:visited {
+    color: #000000;/*#344873;*/
+    text-decoration: underline;
+}
+nav a:hover {
+    color: #8d1a17;
+    text-decoration: underline;
+}
+
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia,"Times New Roman", serif;
+}
+h2 {
+    color: #8d1a17;
+    text-align: center;
+    font-weight: bold; 
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+h3 {
+    color: #000033;
+    text-align: Left;
+    font-family: Georgia,"Times New Roman", serif;
+}
+h4 {/*for lunch list*/
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia,"Times New Roman", serif;
+}
+
+dt {
+    color: #000033;
+}
+
+.resort {  /*class*/
+    color: #8d1a17;
+    font-weight: bold;
+}
+.para {
+    color: #000000;
+    font-family: Georgia,"Times New Roman", serif;
+}
+.lunch {
+    color: #000000;
+    font-family: Georgia,"Times New Roman", serif;
+    text-align: center;
+    font-weight: normal;
+}
+.location {
+    color: #000000;
+    font-family: Georgia,"Times New Roman", serif;
+    text-align: center;
+    font-weight: normal;
+}
+.locationLine {  /*class*/
+    color: #8d1a17;
+    font-family: Georgia,"Times New Roman", serif;
+    font-weight: bold;
+    text-align: center;
+}
+.form {
+    color: #000000;
+    font-family: Georgia,"Times New Roman", serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+#contact { /*id selector*/
+    font-size: 120%;
+    text-align: center;
+    font-style: normal;
+     font-weight: bold;
+    font-family: Georgia,"Times New Roman", serif;
+    
+}
+
+#wrapper { /*id selector***Following 6.4**/
+    margin-left: auto;/**center**/
+    margin-right: auto;/**center**/
+    /*margin: auto; /**center**/
+    width: 80%;
+    background-color: #fbcb7d;/*#90C7E3;*/
+    min-width: 960px;
+    max-width: 2048px;
+    min-height: 20px;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+.btn {/*for lunch btn*/
+    margin:auto;
+    display:block;
+    font-family: Georgia,"Times New Roman", serif;
+}
+.btn2 {/*for menus btn*/
+      margin-left: 30px;
+      font-weight: bold;
+      font-family: Georgia,"Times New Roman", serif;
+}
+.m2 {/*for menus */
+      margin-left: 30px;
+      font-family: Georgia,"Times New Roman", serif;
+}
+.btnin {/*for menus btn*/
+      margin-left: 70px;
+      font-family: Georgia,"Times New Roman", serif;
+}
+.m3 {/*for menus btn*/
+      margin-left: 50px;
+      font-family: Georgia,"Times New Roman", serif;
+}
+
+#map { /*id selector*/
+   background-image: url(map.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   height: 300px;
+   /*w4*/
+   /*margin-left: 190px*/
+}
+
+footer {
+    color: #666666;
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 20px 20px 20px;
+    background-color: #FFFFFF;
+    float: none;
+}
+
+/*w4 p2*/
+/*fix older brower*/
+header, main, nav, footer, figure, figcaption, aside, section,
+article { display: block; }
+
+#mobile{ /*id*/
+    display: none;
+}
+#desktop{ /*id*/
+    display: inline;
+}
+/*w5**table element OR table*/
+table { 
+    border: 1px solid #8d1a17; 
+    width: 80%;
+    font-family: Georgia, "Times New Roman", serif;
+    border-spacing: 0;/*w5 9.3
+    the empty space between the borders of the table cells with the
+    border-spacing property. 
+    */
+}
+/*w5***Configure the td and th element OR table cells***/
+td, th { 
+    padding: 5px;
+    border: 1px solid #8d1a17; 
+}
+td {/*???? w5*/
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.text {  /*class*/
+/*Code a new style rule for a class named text that will
+override the td style rule and left-align the text*/
+    text-align: left;
+}
+/*w5***/
+/* tr = table row
+Apply the :nth-of-type CSS3 pseudo-class to configure the odd table rows with 
+a light blue background color (#F5FAFC)*/
+tr:nth-of-type(odd) { 
+    background-color: #FFAAAA;
+}
+textarea { 
+    display: block; 
+    margin-bottom: 20px;
+}
+/**w5 p2  The submit button**/
+input[type="submit"] {
+    /*margin-left: 130px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**w6 video task3**/
+video, embed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*w4****media queries*/
+@media only screen and (max-width: 64em) {/*Tablet display*/
+    body { /*style media query*/
+        margin: 0; 
+        background-color: #FFFFFF;
+    }
+    #wrapper {
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+    }
+    main { 
+        margin-left: 0;
+    }
+    nav {
+        float: none;
+        width: auto; 
+        text-align: center;
+        padding: 0.5em;
+    }
+    nav li { /*???*/
+        display: inline;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+    }
+    footer {
+         margin-left: 0;
+    }
+}
+/*w4****media queries*/
+@media only screen and (max-width: 37.5em) {/*Smartphone display*/
+    header id {
+        padding-top: 1em;
+    }
+    main { 
+        padding-top: 0.1em;
+        padding-bottom: 0.1em; 
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: .90em;
+    }
+    h1 { 
+        font-size: 1.5em; 
+    }
+    nav {
+        padding: 0;
+    }
+    nav li { /*list*/
+        display: block;
+        margin: 0;
+        border-bottom: 2px solid #330000;
+    }
+    
+    nav a { /*hyperlinks*/
+        display: block;
+    }
+    #mobile{ 
+        display: inline;
+    }
+    #desktop{ 
+        display: none;
+    }
+    /*w5 p2*/
+    label { 
+        float: none;
+        text-align: left; 
+    }
+    input[type="submit"]{ 
+        margin-left: 0; 
+    }
+}

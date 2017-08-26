@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Web Page Title-->
+    <title>Line Thai Restaurant</title>
+    <meta charset="utf-8">
+    <!--add w4 p2-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--------slide show-------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!---online source code from : https://www.w3schools.com ---->
+    <!--include css link-------->
+    <link href="pacific.css" rel="stylesheet">
+
+    <!--w4 p2-->
+    <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+    
+</head>
+<body>
+    <!--add id-->
+    <div id="wrapper">
+        <!--Wireframe Header Area-->
+         <header>
+            <!--w6 p2-->
+            <!--meta tage----------done---------------------------------------------------------->
+            <meta name="description" 
+            content="
+            The Line Thai Restaurant website featuring menus detail, special offer, images, survey, map and location. 
+            Moreover, We offer the digital or printed version of the menu.">
+            <!--meta tage----------done---------------------------------------------------------->
+         </header>
+         <nav>
+             <ul>
+                 <!--Wireframe Navigation Area-->
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="menus.html">Menus</a></li>
+            	 <li><a href="lunch.html">Lunch Specials </a></li>
+            	 <li><a href="vegetarian.html">Vegetarian</a></li>
+            	 <li><a href="dessert.html">Dessert</a></li>
+            	 <li><a href="location.html">Location</a></li>
+            	 <li><a href="survey.html">Survey </a></li>
+        	 </ul>
+         </nav>
+         <main>
+            <!--slide show----------------------------------------------------------------------->
+              
+                <div class="w3-content w3-display-container">
+                  <img class="mySlides" src="f (11).jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="H3.jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="H4.jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="H1.jpg" style="width:100%" height="300" width="200">
+                  <img class="mySlides" src="H2.jpg" style="width:100%" height="300" width="200">
+                  
+                  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                
+                <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+                </script>
+            <!--slide show----------------------------------------------------------------------->
+             
+             <!--Wireframe Main Content Area -- 11.3, 11.4-->
+                <h2>Enjoy The Taste Of Thailand</h2>
+                
+                <p align="center" class="para"><b>WELCOME TO </b><span class="resort">LINE THAI RESTAURANT</span><br>
+                    Our goal is to serve you authentic Thai food at its very best. We prepare each dish individually to ensure freshness and quality.
+                    <br>
+                    Our food can be VERY spicy.At their mildest, they are about as hot as Mexican food is served in the Southwest. 
+                    At their spiciest, they are Thai HOT. But do not worry!<br>
+                    We will season each individual dish to your taste. We also have variety of non-spicy 
+                    dishes for those who cannot handle the heat. To maintain their original taste, <br>
+                    therefore, some dishes may not be substituted or added. 
+                    Also, there is no MSG added.
+                </p>
+               
+                <!--w6 Video -->
+                <video autoplay
+                 poster="THV.jpg">
+                    <source src="THV.mp4" type="video/mp4">
+                    <source src="THV_mp4.ogv" type="video/ogg">
+                    <embed type="application/x-shockwave-flash"
+                    src="HV_mp4.swf" quality="high"
+                    width="320" height="240">
+                </video>
+                <!------------------------------------------------------------------------->
+                <p class="locationLine">
+                    Video source and Credit :
+                        <a href="http://www.azpbs.org/checkplease/restaurant.php?id=6532">
+                            http://www.azpbs.org/checkplease/</a>
+                </p>
+         </main>
+         <!---------------------------------------------------------------------------->
+         <footer>
+            <!--Wireframe Footer Area-->
+            <!-- Address ----------------->
+            <hr>
+            <p2>
+                <div id=contact>
+                    <span class="resort">
+                        Line Thai Restaurant</span>
+                    <br>9805 W. Bell Rd., Sun City
+                    <br>AZ 85351
+                    <br>
+                    <!--w4 p2-->
+                        <a id="mobile" href="tel:623-977-8940">623-977-8940</a>
+                        <span id="desktop">623-977-8940</span>
+                </div>
+                <br>
+            </p2>
+            <!-- Add social media icons -->
+            <p>
+                <!-- Add social media icons = facebook -->
+                <a href="https://www.facebook.com/Line-Thai-Restaurant-AZ-357967847552126/">
+                <img src="facebook.png" width="42" height="40" align="middle">
+                </a>
+                 <!-- Add social media icons = map-->
+                <a href="https://www.google.com/maps/dir/''/line+thai+restaurant+sun+city+menu/data=!4m5!4m4!1m0!1m2!1m1!1s0x872b42e8fd5683ed:0x52d28f4fc24dfba4?sa=X&ved=0ahUKEwjE1u3O6Y3TAhUP2GMKHZVWBg8Q9RcIjAEwCw">
+                <img src="Google_Maps_Icon.png" width="50" height="50" align="middle">
+                </a>
+            </p>
+                <!--Copyrigth-->
+                Copyright &copy; 2016 Line Thai Restaurant<br>
+                <a href="mailto:LineThaiRestaurant@gmail.com">LineThaiRestaurant@gmail.com</a>
+         </footer>
+    </div>
+</body>
+</html>
